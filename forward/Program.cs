@@ -21,7 +21,7 @@ namespace forward
     internal class Program
     {
         // File to store port forwarding rules.
-        private static readonly string jsonFile = "foward.json";
+        private static readonly string jsonFile = "forward.json";
 
         [RequiresUnreferencedCode("Calls forward.Program.SaveRules(List<PortForwardingRule>)")]
         [RequiresDynamicCode("Calls forward.Program.SaveRules(List<PortForwardingRule>)")]
